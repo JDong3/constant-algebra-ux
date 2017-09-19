@@ -16,7 +16,7 @@ const formInput = {
 const background = {
     backgroundColor: '#252528',
     margin: -8,
-    height: 10000
+    height: 5000
 }
 
 const bigDivider = {
