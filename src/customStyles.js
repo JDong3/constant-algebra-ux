@@ -42,10 +42,8 @@ const cardDisplay = {
   borderWidth: 2,
   borderColor: '#404050',
 
-
-  paddingLeft: 15,
-  paddingBottom: 10,
-  paddingTop: 15
+  paddingLeft: 10,
+  paddingTop: 10
 }
 
 const headerText = {
