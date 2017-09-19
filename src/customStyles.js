@@ -3,7 +3,6 @@ const formInput = {
   width: '100%',
   placeholder: 'asdf',
   backgroundColor: '#505055',
-  lineHeight: 20,
   padding: 10,
   fontSize: 20,
   fontFamily: 'monospace',
@@ -15,17 +14,9 @@ const formInput = {
 }
 
 const background = {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    bottom: 0,
     backgroundColor: '#252528',
-    width: '100%',
-    height: 5000,
-    padding: 0,
-    margin: 0,
-    border: 0,
-    outline: 'none'
+    margin: -8,
+    height: 10000
 }
 
 const bigDivider = {
@@ -52,7 +43,7 @@ const cardDisplay = {
   borderColor: '#404050',
 
 
-  paddingLeft: 40,
+  paddingLeft: 15,
   paddingBottom: 10,
   paddingTop: 15
 }

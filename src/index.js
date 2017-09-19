@@ -96,21 +96,24 @@ class Index extends Component {
       </div>
     ))
     return(
-      <div style={styles.background} onChange={this.handleFormUpdate}>
-        <button style={styles.headerText} onClick={this.handleHomeButtonClick}>
-          Constant Algebra v 0.0.0 (Alpha)
-        </button>
-        {this.renderDivider()}
-        <Row center='xs'>
-          <Col xs={8} sm={8} md={5} lg={5}>
-            <form onSubmit={this.handleFormSubmit}>
-              {this.renderFormInput(this.state.inputFormText)}
-            </form>
-          </Col>
-        </Row>
-        {this.renderDivider()}
-        {cards}
-      </div>
+      <body style={styles.background}>
+        <Col onChange={this.handleFormUpdate}
+          xs={12} sm={12} md={12} lg={12}>
+          <button style={styles.headerText} onClick={this.handleHomeButtonClick}>
+            Constant Algebra v 0.0.0 (Alpha)
+          </button>
+          {this.renderDivider()}
+          <Row center='xs'>
+            <Col xs={8} sm={8} md={5} lg={5}>
+              <form onSubmit={this.handleFormSubmit}>
+                {this.renderFormInput(this.state.inputFormText)}
+              </form>
+            </Col>
+          </Row>
+          {this.renderDivider()}
+          {cards}
+        </Col>
+      </body>
     )
   }
 }
